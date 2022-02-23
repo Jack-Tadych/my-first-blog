@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 #source myvenv/bin/activate
 import os
+import sys
 from django.urls import path
 from django.conf.urls import include
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
