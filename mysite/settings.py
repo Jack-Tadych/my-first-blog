@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 #source myvenv/bin/activate
 import os
-import sys
+
 from django.urls import path
 from django.conf.urls import include
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/New_York'
 
 USE_I18N = True
 
@@ -122,6 +122,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 #STATIC_ROOT = BASE_DIR / 'static'
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "/static")
 #howdy
 #STATIC_ROOT = BASE_DIR / 'static'
