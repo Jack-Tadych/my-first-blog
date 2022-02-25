@@ -4,31 +4,13 @@
     <title>Jackies site</title>
   </head>
       <body>
-        <div class="navbar">
-         <div class="section-inner clearfix">
-             <nav>
-                 <a href="/">The Great Django Blog</a>
-                 <a href="#">Blog</a>
-                 <a href="#">Contact</a>
-                 <a href="#">Career</a>
-             </nav>
-         </div>
-     </div>
+          <header>
+              <h1><a href="/">Django Girls Blog</a></h1>
+          </header>
 
-     {% block content %}
-
-     {% endblock %}
-
-     {% block footer %}
-
-     <div class="footer">
-         <div class="section-inner clearfix">
-             <hr>
-             <p>&copy; The Great Django Footer</p>
-         </div>
-     </div>
-
-     {% endblock %}
+          <article>
+              {{ post}}
+          </article>
 
       </body>
   </html>
