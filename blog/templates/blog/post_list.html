@@ -10,7 +10,9 @@
 
           <p> Here is my variable: {{ posts }}</p>
 
-
+          {% for post in posts %}
+    {{ post }}
+          {% endfor %}
 
           <article>
               <time>published: 14.06.2014, 12:14</time>
